@@ -24,10 +24,7 @@ const StyledLoginButton = styled.a`
   }
 `;
 
-const LOGIN_URI =
-  process.env.NODE_ENV !== "production"
-    ? "http://localhost:8888/login"
-    : "https://spotify-backend.cyclic.app/login";
+const LOGIN_URI = "https://spotify-backend.cyclic.app/login";
 
 const Login = () => (
   <StyledLoginContainer>
