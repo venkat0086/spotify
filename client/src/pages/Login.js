@@ -24,7 +24,7 @@ const StyledLoginButton = styled.a`
   }
 `;
 
-const LOGIN_URI = "https://spotify-backend.cyclic.app/login";
+const LOGIN_URI = "https://spotify-pro.onrender.com/login";
 
 const Login = () => (
   <StyledLoginContainer>
